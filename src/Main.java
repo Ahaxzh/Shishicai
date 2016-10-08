@@ -38,8 +38,6 @@ public class Main {
         List<Map<String, Object>> list = makeDate(doc);
         assert list != null;
         list.forEach(System.out::println);
-
-
     }
 
     /**
@@ -169,7 +167,3 @@ public class Main {
         return doc;
     }
 }
-
-
-
-
